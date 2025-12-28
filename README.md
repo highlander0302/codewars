@@ -11,4 +11,4 @@ This repository contains my Python solutions to Codewars problems, organized by 
 
 ## 🛠️ Usage
 
-Clone the repo and browse the folders by difficulty. Feel free to explore or adapt any of the solutions.
+👀
