@@ -7,7 +7,7 @@ This repository contains my Python solutions to Codewars problems, organized by 
 
 ## 🚀 Purpose
 
-- store solutions to use occasionally as code snippets
+- store solutions to fast review later
 
 ## 🛠️ Usage
 
