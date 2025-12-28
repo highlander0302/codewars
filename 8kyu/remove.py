@@ -1,11 +1,12 @@
 """
-Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
+Take an array and remove every second element from the array.
+Always keep the first element and start removing with the next element.
 
 Example:
 ["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> ["Keep", "Keep", "Keep", ...]
 """
 
-array = [
+ARRAY = [
     "Keep",
     "Remove",
     "Keep",
@@ -19,13 +20,9 @@ array = [
 ]
 
 
-def remove(a):
-    print(a)
-    for i in a:
-        if i == "Remove":
-            a.remove(i)
-    print(a)
-    return
+def remove(raw_array: list[str]) -> list[str]:
+    return [word for word in raw_array if word != "Remove"]
 
 
-remove(array)
+RESULT = remove(ARRAY)
+print(RESULT)

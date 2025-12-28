@@ -5,5 +5,5 @@ def capitals(word):
 result = capitals("something LIKE That")
 print(result)
 """
-the fucntion returns list of indexes of all capital letters
+the function returns list of indexes of all capital letters
 """

@@ -7,13 +7,13 @@ find_longest_word("The quick brown fox jumped over the lazy dog")  # should retu
 find_longest_word("I love programming")  # should return "programming"
 """
 
-string = "The quick brown fox jumped over the lazy dog"
+STRING = "The quick brown fox jumped over the lazy dog"
 
 
-def find_longest(s):
+def find_longest(s: str) -> str:
     words = s.split()
     longest_word = max(words, key=len)
     return longest_word
 
 
-print(find_longest(string))
+print(find_longest(STRING))

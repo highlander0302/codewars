@@ -1,5 +1,6 @@
 """
-Given two arrays, write a function to find their intersection (the elements that appear in both arrays).
+Given two arrays, write a function to find their intersection
+(the elements that appear in both arrays).
 
 Example:
 intersection([1, 2, 2, 1], [2, 2])  # should return [2, 2]

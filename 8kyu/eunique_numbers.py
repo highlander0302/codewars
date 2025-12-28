@@ -1,6 +1,6 @@
 """
-Write a function that takes a list of numbers and returns a new list containing only the unique elements
-(removing duplicates but keeping order).
+Write a function that takes a list of numbers and returns a new list containing only
+the unique elements (removing duplicates but keeping order).
 
 Examples:
 print(unique_elements([1, 2, 2, 3, 4, 4, 5]))  # Expected: [1, 2, 3, 4, 5]

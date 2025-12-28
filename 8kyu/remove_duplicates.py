@@ -19,4 +19,9 @@ def remove(l):
     return new_l
 
 
+def remove_alternative(raw_list: list[str]) -> list[str]:
+    return list(set(raw_list))
+
+
 print(remove(["apple", "banana", "apple", "cherry", "banana"]))
+print(remove_alternative(["apple", "banana", "apple", "cherry", "banana"]))
