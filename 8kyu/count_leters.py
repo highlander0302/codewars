@@ -9,12 +9,13 @@ If no occurrences can be found, a count of 0 should be returned.
 ("", 'z')       =>  0
 """
 
-my_string = "aaaaaaaaacccttttcacacacacact"
-my_letter = "a"
+MY_STRING = "aaaaaaaaacccttttcacacacacact"
+MY_LETTER = "a"
 
 
 def letter_count(s, l):
-    print(s.count(l))
+    return s.count(l)
 
 
-letter_count(my_string, my_letter)
+RESULT = letter_count(MY_STRING, MY_LETTER)
+print(RESULT)

@@ -1,12 +1,11 @@
-input_dna_seq = "ACACACACCACTTTTTTTTTT"
+INPUT_DNA_SEQ = "ACACACACCACTTTTTTTTTT"
 
 """"Function assumes that the input is correct and only ACTG nucleotides are given."""
 
 
 def dna_converter(dna):
-    rna = dna.replace("T", "U")
-    print(rna)
-    return rna
+    return dna.replace("T", "U")
 
 
-dna_converter(input_dna_seq)
+RESULT = dna_converter(INPUT_DNA_SEQ)
+print(RESULT)
